@@ -31,3 +31,4 @@ indice_faiss.add(embeddings)
 faiss.write_index(indice_faiss, "codigo_penal_faiss.index")
 
 print(f"✅ Indexación completada. {len(fragmentos)} artículos procesados.")
+
